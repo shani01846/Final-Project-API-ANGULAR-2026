@@ -3,6 +3,26 @@
   "WorkspaceRootPath": "D:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\projects\\Angular_Api\\server\\project\\a\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B795B569-474C-4560-8970-17045AC4EA59}|a\\a.csproj|d:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\projects\\angular_api\\server\\project\\a\\a\\dto\\loginresponedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B795B569-474C-4560-8970-17045AC4EA59}|a\\a.csproj|solutionrelative:a\\dto\\loginresponedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B795B569-474C-4560-8970-17045AC4EA59}|a\\a.csproj|d:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\projects\\angular_api\\server\\project\\a\\a\\dto\\lotteryresultdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B795B569-474C-4560-8970-17045AC4EA59}|a\\a.csproj|solutionrelative:a\\dto\\lotteryresultdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B795B569-474C-4560-8970-17045AC4EA59}|a\\a.csproj|d:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\projects\\angular_api\\server\\project\\a\\a\\dto\\rgisterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B795B569-474C-4560-8970-17045AC4EA59}|a\\a.csproj|solutionrelative:a\\dto\\rgisterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B795B569-474C-4560-8970-17045AC4EA59}|a\\a.csproj|d:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\projects\\angular_api\\server\\project\\a\\a\\dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B795B569-474C-4560-8970-17045AC4EA59}|a\\a.csproj|solutionrelative:a\\dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B795B569-474C-4560-8970-17045AC4EA59}|a\\a.csproj|d:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\projects\\angular_api\\server\\project\\a\\a\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B795B569-474C-4560-8970-17045AC4EA59}|a\\a.csproj|solutionrelative:a\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B795B569-474C-4560-8970-17045AC4EA59}|a\\a.csproj|d:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\projects\\angular_api\\server\\project\\a\\a\\repositories\\purchaserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B795B569-474C-4560-8970-17045AC4EA59}|a\\a.csproj|solutionrelative:a\\repositories\\purchaserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -50,28 +70,12 @@
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\AppData\\Local\\Temp\\.vsdbgsrc\\f77c3b2ed698bfd8b419943f4363a475ea052c87d128af798a2f3a3a0768a557\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B795B569-474C-4560-8970-17045AC4EA59}|a\\a.csproj|d:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\projects\\angular_api\\server\\project\\a\\a\\dto\\rgisterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B795B569-474C-4560-8970-17045AC4EA59}|a\\a.csproj|solutionrelative:a\\dto\\rgisterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B795B569-474C-4560-8970-17045AC4EA59}|a\\a.csproj|d:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\projects\\angular_api\\server\\project\\a\\a\\dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B795B569-474C-4560-8970-17045AC4EA59}|a\\a.csproj|solutionrelative:a\\dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B795B569-474C-4560-8970-17045AC4EA59}|a\\a.csproj|d:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\projects\\angular_api\\server\\project\\a\\a\\dto\\donordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B795B569-474C-4560-8970-17045AC4EA59}|a\\a.csproj|solutionrelative:a\\dto\\donordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B795B569-474C-4560-8970-17045AC4EA59}|a\\a.csproj|d:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\projects\\angular_api\\server\\project\\a\\a\\dto\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B795B569-474C-4560-8970-17045AC4EA59}|a\\a.csproj|solutionrelative:a\\dto\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B795B569-474C-4560-8970-17045AC4EA59}|a\\a.csproj|d:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\projects\\angular_api\\server\\project\\a\\a\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B795B569-474C-4560-8970-17045AC4EA59}|a\\a.csproj|solutionrelative:a\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B795B569-474C-4560-8970-17045AC4EA59}|a\\a.csproj|d:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\projects\\angular_api\\server\\project\\a\\a\\dto\\loginresponedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B795B569-474C-4560-8970-17045AC4EA59}|a\\a.csproj|solutionrelative:a\\dto\\loginresponedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B795B569-474C-4560-8970-17045AC4EA59}|a\\a.csproj|d:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\projects\\angular_api\\server\\project\\a\\a\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -154,10 +158,6 @@
       "RelativeMoniker": "D:0:0:{B795B569-474C-4560-8970-17045AC4EA59}|a\\a.csproj|solutionrelative:a\\interfaces\\ilotteryresultservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B795B569-474C-4560-8970-17045AC4EA59}|a\\a.csproj|d:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\projects\\angular_api\\server\\project\\a\\a\\dto\\lotteryresultdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B795B569-474C-4560-8970-17045AC4EA59}|a\\a.csproj|solutionrelative:a\\dto\\lotteryresultdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B795B569-474C-4560-8970-17045AC4EA59}|a\\a.csproj|d:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\projects\\angular_api\\server\\project\\a\\a\\controllers\\donorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B795B569-474C-4560-8970-17045AC4EA59}|a\\a.csproj|solutionrelative:a\\controllers\\donorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -229,24 +229,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "D:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\projects\\Angular_Api\\server\\project\\a\\a\\Services\\UserService.cs",
-              "RelativeDocumentMoniker": "a\\Services\\UserService.cs",
-              "ToolTip": "D:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\projects\\Angular_Api\\server\\project\\a\\a\\Services\\UserService.cs",
-              "RelativeToolTip": "a\\Services\\UserService.cs",
-              "ViewState": "AgIAAF8AAAAAAAAAAAAswHMAAABOAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "PurchaseRepository.cs",
+              "DocumentMoniker": "D:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\projects\\Angular_Api\\server\\project\\a\\a\\Repositories\\PurchaseRepository.cs",
+              "RelativeDocumentMoniker": "a\\Repositories\\PurchaseRepository.cs",
+              "ToolTip": "D:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\projects\\Angular_Api\\server\\project\\a\\a\\Repositories\\PurchaseRepository.cs",
+              "RelativeToolTip": "a\\Repositories\\PurchaseRepository.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAkwC4AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-22T00:23:10.239Z",
+              "WhenOpened": "2025-12-29T22:30:55.333Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "PurchaseDto.cs",
               "DocumentMoniker": "D:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\projects\\Angular_Api\\server\\project\\a\\a\\Dto\\PurchaseDto.cs",
               "RelativeDocumentMoniker": "a\\Dto\\PurchaseDto.cs",
@@ -254,64 +254,23 @@
               "RelativeToolTip": "a\\Dto\\PurchaseDto.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAxwBYAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-22T00:05:27.142Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-22T00:05:27.142Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "PurchaseController.cs",
-              "DocumentMoniker": "D:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\projects\\Angular_Api\\server\\project\\a\\a\\Controllers\\PurchaseController.cs",
-              "RelativeDocumentMoniker": "a\\Controllers\\PurchaseController.cs",
-              "ToolTip": "D:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\projects\\Angular_Api\\server\\project\\a\\a\\Controllers\\PurchaseController.cs",
-              "RelativeToolTip": "a\\Controllers\\PurchaseController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvxcAAAA+AAAAAAAAAA==",
+              "DocumentIndex": 9,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "D:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\projects\\Angular_Api\\server\\project\\a\\a\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "a\\Services\\UserService.cs",
+              "ToolTip": "D:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\projects\\Angular_Api\\server\\project\\a\\a\\Services\\UserService.cs",
+              "RelativeToolTip": "a\\Services\\UserService.cs",
+              "ViewState": "AgIAAF8AAAAAAAAAAAAswHMAAABOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-29T22:32:18.691Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-22T00:23:10.239Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "Purchase.cs",
-              "DocumentMoniker": "D:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\projects\\Angular_Api\\server\\project\\a\\a\\Models\\Purchase.cs",
-              "RelativeDocumentMoniker": "a\\Models\\Purchase.cs",
-              "ToolTip": "D:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\projects\\Angular_Api\\server\\project\\a\\a\\Models\\Purchase.cs",
-              "RelativeToolTip": "a\\Models\\Purchase.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-06T10:25:50.381Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PurchaseService.cs",
-              "DocumentMoniker": "D:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\projects\\Angular_Api\\server\\project\\a\\a\\Services\\PurchaseService.cs",
-              "RelativeDocumentMoniker": "a\\Services\\PurchaseService.cs",
-              "ToolTip": "D:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\projects\\Angular_Api\\server\\project\\a\\a\\Services\\PurchaseService.cs",
-              "RelativeToolTip": "a\\Services\\PurchaseService.cs",
-              "ViewState": "AgIAAGsAAAAAAAAAAAAUwGEAAABGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-29T22:29:09.319Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Present.cs",
-              "DocumentMoniker": "D:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\projects\\Angular_Api\\server\\project\\a\\a\\Models\\Present.cs",
-              "RelativeDocumentMoniker": "a\\Models\\Present.cs",
-              "ToolTip": "D:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\projects\\Angular_Api\\server\\project\\a\\a\\Models\\Present.cs",
-              "RelativeToolTip": "a\\Models\\Present.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAgwBYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-06T09:54:56.645Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "IPurchaseService.cs",
               "DocumentMoniker": "D:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\projects\\Angular_Api\\server\\project\\a\\a\\Interfaces\\IPurchaseService.cs",
               "RelativeDocumentMoniker": "a\\Interfaces\\IPurchaseService.cs",
@@ -319,25 +278,124 @@
               "RelativeToolTip": "a\\Interfaces\\IPurchaseService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-06T09:04:46.155Z",
+              "WhenOpened": "2026-01-06T09:04:46.155Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\projects\\Angular_Api\\server\\project\\a\\a\\Models\\User.cs",
+              "RelativeDocumentMoniker": "a\\Models\\User.cs",
+              "ToolTip": "D:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\projects\\Angular_Api\\server\\project\\a\\a\\Models\\User.cs",
+              "RelativeToolTip": "a\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-06T10:20:15.991Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserDto.cs",
+              "DocumentMoniker": "D:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\projects\\Angular_Api\\server\\project\\a\\a\\Dto\\UserDto.cs",
+              "RelativeDocumentMoniker": "a\\Dto\\UserDto.cs",
+              "ToolTip": "D:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\projects\\Angular_Api\\server\\project\\a\\a\\Dto\\UserDto.cs",
+              "RelativeToolTip": "a\\Dto\\UserDto.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAqwCYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-06T10:19:58.921Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RgisterDto.cs",
+              "DocumentMoniker": "D:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\projects\\Angular_Api\\server\\project\\a\\a\\Dto\\RgisterDto.cs",
+              "RelativeDocumentMoniker": "a\\Dto\\RgisterDto.cs",
+              "ToolTip": "D:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\projects\\Angular_Api\\server\\project\\a\\a\\Dto\\RgisterDto.cs",
+              "RelativeToolTip": "a\\Dto\\RgisterDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-21T23:47:20.742Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LotteryResultDto.cs",
+              "DocumentMoniker": "D:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\projects\\Angular_Api\\server\\project\\a\\a\\Dto\\LotteryResultDto.cs",
+              "RelativeDocumentMoniker": "a\\Dto\\LotteryResultDto.cs",
+              "ToolTip": "D:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\projects\\Angular_Api\\server\\project\\a\\a\\Dto\\LotteryResultDto.cs",
+              "RelativeToolTip": "a\\Dto\\LotteryResultDto.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAuwBAAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-06T09:24:10.499Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "PurchaseRepository.cs",
-              "DocumentMoniker": "D:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\projects\\Angular_Api\\server\\project\\a\\a\\Repositories\\PurchaseRepository.cs",
-              "RelativeDocumentMoniker": "a\\Repositories\\PurchaseRepository.cs",
-              "ToolTip": "D:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\projects\\Angular_Api\\server\\project\\a\\a\\Repositories\\PurchaseRepository.cs",
-              "RelativeToolTip": "a\\Repositories\\PurchaseRepository.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAA7wC4AAAAJAAAAAAAAAA==",
+              "Title": "LoginResponeDto.cs",
+              "DocumentMoniker": "D:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\projects\\Angular_Api\\server\\project\\a\\a\\Dto\\LoginResponeDto.cs",
+              "RelativeDocumentMoniker": "a\\Dto\\LoginResponeDto.cs",
+              "ToolTip": "D:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\projects\\Angular_Api\\server\\project\\a\\a\\Dto\\LoginResponeDto.cs",
+              "RelativeToolTip": "a\\Dto\\LoginResponeDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAIAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-29T22:30:55.333Z",
+              "WhenOpened": "2026-01-21T22:59:29.138Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
+              "Title": "PurchaseController.cs",
+              "DocumentMoniker": "D:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\projects\\Angular_Api\\server\\project\\a\\a\\Controllers\\PurchaseController.cs",
+              "RelativeDocumentMoniker": "a\\Controllers\\PurchaseController.cs",
+              "ToolTip": "D:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\projects\\Angular_Api\\server\\project\\a\\a\\Controllers\\PurchaseController.cs",
+              "RelativeToolTip": "a\\Controllers\\PurchaseController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvxcAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-29T22:32:18.691Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Present.cs",
+              "DocumentMoniker": "D:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\projects\\Angular_Api\\server\\project\\a\\a\\Models\\Present.cs",
+              "RelativeDocumentMoniker": "a\\Models\\Present.cs",
+              "ToolTip": "D:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\projects\\Angular_Api\\server\\project\\a\\a\\Models\\Present.cs",
+              "RelativeToolTip": "a\\Models\\Present.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAgwBYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-06T09:54:56.645Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PurchaseService.cs",
+              "DocumentMoniker": "D:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\projects\\Angular_Api\\server\\project\\a\\a\\Services\\PurchaseService.cs",
+              "RelativeDocumentMoniker": "a\\Services\\PurchaseService.cs",
+              "ToolTip": "D:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\projects\\Angular_Api\\server\\project\\a\\a\\Services\\PurchaseService.cs",
+              "RelativeToolTip": "a\\Services\\PurchaseService.cs",
+              "ViewState": "AgIAAGsAAAAAAAAAAAAUwGEAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-29T22:29:09.319Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Purchase.cs",
+              "DocumentMoniker": "D:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\projects\\Angular_Api\\server\\project\\a\\a\\Models\\Purchase.cs",
+              "RelativeDocumentMoniker": "a\\Models\\Purchase.cs",
+              "ToolTip": "D:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\projects\\Angular_Api\\server\\project\\a\\a\\Models\\Purchase.cs",
+              "RelativeToolTip": "a\\Models\\Purchase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-06T10:25:50.381Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "IUserService.cs",
               "DocumentMoniker": "D:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\projects\\Angular_Api\\server\\project\\a\\a\\Interfaces\\IUserService.cs",
               "RelativeDocumentMoniker": "a\\Interfaces\\IUserService.cs",
@@ -345,12 +403,11 @@
               "RelativeToolTip": "a\\Interfaces\\IUserService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-06T09:04:44.731Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-06T09:04:44.731Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 15,
               "Title": "PresentController.cs",
               "DocumentMoniker": "D:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\projects\\Angular_Api\\server\\project\\a\\a\\Controllers\\PresentController.cs",
               "RelativeDocumentMoniker": "a\\Controllers\\PresentController.cs",
@@ -358,23 +415,21 @@
               "RelativeToolTip": "a\\Controllers\\PresentController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-06T10:38:58.044Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-06T10:38:58.044Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 16,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\User\\AppData\\Local\\Temp\\.vsdbgsrc\\f77c3b2ed698bfd8b419943f4363a475ea052c87d128af798a2f3a3a0768a557\\Program.cs",
               "ToolTip": "C:\\Users\\User\\AppData\\Local\\Temp\\.vsdbgsrc\\f77c3b2ed698bfd8b419943f4363a475ea052c87d128af798a2f3a3a0768a557\\Program.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAWwBYAAAACAAAAAQAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-06T21:24:16.161Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-06T21:24:16.161Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 10,
               "Title": "PresentDto.cs",
               "DocumentMoniker": "D:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\projects\\Angular_Api\\server\\project\\a\\a\\Dto\\PresentDto.cs",
               "RelativeDocumentMoniker": "a\\Dto\\PresentDto.cs",
@@ -382,25 +437,11 @@
               "RelativeToolTip": "a\\Dto\\PresentDto.cs",
               "ViewState": "AgIAACwAAAAAAAAAAAAmwC4AAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-06T10:04:50.225Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-06T10:04:50.225Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "LoginResponeDto.cs",
-              "DocumentMoniker": "D:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\projects\\Angular_Api\\server\\project\\a\\a\\Dto\\LoginResponeDto.cs",
-              "RelativeDocumentMoniker": "a\\Dto\\LoginResponeDto.cs",
-              "ToolTip": "D:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\projects\\Angular_Api\\server\\project\\a\\a\\Dto\\LoginResponeDto.cs",
-              "RelativeToolTip": "a\\Dto\\LoginResponeDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAIAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-21T22:59:29.138Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\projects\\Angular_Api\\server\\project\\a\\a\\Program.cs",
               "RelativeDocumentMoniker": "a\\Program.cs",
@@ -408,12 +449,11 @@
               "RelativeToolTip": "a\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-21T20:05:12.925Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-21T20:05:12.925Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\projects\\Angular_Api\\server\\project\\a\\a\\appsettings.json",
               "RelativeDocumentMoniker": "a\\appsettings.json",
@@ -421,12 +461,11 @@
               "RelativeToolTip": "a\\appsettings.json",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-01-21T22:40:16.928Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-21T22:40:16.928Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 17,
               "Title": "DonorDto.cs",
               "DocumentMoniker": "D:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\projects\\Angular_Api\\server\\project\\a\\a\\Dto\\DonorDto.cs",
               "RelativeDocumentMoniker": "a\\Dto\\DonorDto.cs",
@@ -434,25 +473,11 @@
               "RelativeToolTip": "a\\Dto\\DonorDto.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAAkwAoAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-06T09:09:45.73Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-06T09:09:45.73Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "UserDto.cs",
-              "DocumentMoniker": "D:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\projects\\Angular_Api\\server\\project\\a\\a\\Dto\\UserDto.cs",
-              "RelativeDocumentMoniker": "a\\Dto\\UserDto.cs",
-              "ToolTip": "D:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\projects\\Angular_Api\\server\\project\\a\\a\\Dto\\UserDto.cs",
-              "RelativeToolTip": "a\\Dto\\UserDto.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAqwCUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-06T10:19:58.921Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 18,
               "Title": "LoginDto.cs",
               "DocumentMoniker": "D:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\projects\\Angular_Api\\server\\project\\a\\a\\Dto\\LoginDto.cs",
               "RelativeDocumentMoniker": "a\\Dto\\LoginDto.cs",
@@ -460,38 +485,11 @@
               "RelativeToolTip": "a\\Dto\\LoginDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-06T10:32:17.993Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-06T10:32:17.993Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "User.cs",
-              "DocumentMoniker": "D:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\projects\\Angular_Api\\server\\project\\a\\a\\Models\\User.cs",
-              "RelativeDocumentMoniker": "a\\Models\\User.cs",
-              "ToolTip": "D:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\projects\\Angular_Api\\server\\project\\a\\a\\Models\\User.cs",
-              "RelativeToolTip": "a\\Models\\User.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAAwA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-06T10:20:15.991Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "RgisterDto.cs",
-              "DocumentMoniker": "D:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\projects\\Angular_Api\\server\\project\\a\\a\\Dto\\RgisterDto.cs",
-              "RelativeDocumentMoniker": "a\\Dto\\RgisterDto.cs",
-              "ToolTip": "D:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\projects\\Angular_Api\\server\\project\\a\\a\\Dto\\RgisterDto.cs",
-              "RelativeToolTip": "a\\Dto\\RgisterDto.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-21T23:47:20.742Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "ApplicationDBContext.cs",
               "DocumentMoniker": "D:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\projects\\Angular_Api\\server\\project\\a\\a\\Data\\ApplicationDBContext.cs",
               "RelativeDocumentMoniker": "a\\Data\\ApplicationDBContext.cs",
@@ -499,12 +497,11 @@
               "RelativeToolTip": "a\\Data\\ApplicationDBContext.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAywBgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-28T14:24:16.75Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-28T14:24:16.75Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "UserController.cs",
               "DocumentMoniker": "D:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\projects\\Angular_Api\\server\\project\\a\\a\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "a\\Controllers\\UserController.cs",
@@ -512,12 +509,11 @@
               "RelativeToolTip": "a\\Controllers\\UserController.cs",
               "ViewState": "AgIAACwAAAAAAAAAAAAgwE0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-30T00:38:18.149Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-30T00:38:18.149Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "TokenService.cs",
               "DocumentMoniker": "D:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\projects\\Angular_Api\\server\\project\\a\\a\\Services\\TokenService.cs",
               "RelativeDocumentMoniker": "a\\Services\\TokenService.cs",
@@ -525,12 +521,11 @@
               "RelativeToolTip": "a\\Services\\TokenService.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAqwAgAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-21T21:01:10.036Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-21T21:01:10.036Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "ITokenService.cs",
               "DocumentMoniker": "D:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\projects\\Angular_Api\\server\\project\\a\\a\\Interfaces\\ITokenService.cs",
               "RelativeDocumentMoniker": "a\\Interfaces\\ITokenService.cs",
@@ -538,12 +533,11 @@
               "RelativeToolTip": "a\\Interfaces\\ITokenService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-21T20:58:48.311Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-21T20:58:48.311Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "UserRepository.cs",
               "DocumentMoniker": "D:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\projects\\Angular_Api\\server\\project\\a\\a\\Repositories\\UserRepository.cs",
               "RelativeDocumentMoniker": "a\\Repositories\\UserRepository.cs",
@@ -551,12 +545,11 @@
               "RelativeToolTip": "a\\Repositories\\UserRepository.cs",
               "ViewState": "AgIAACcAAAAAAAAAAAAuwDkAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-29T22:31:18.217Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-29T22:31:18.217Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "CategoryService.cs",
               "DocumentMoniker": "D:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\projects\\Angular_Api\\server\\project\\a\\a\\Services\\CategoryService.cs",
               "RelativeDocumentMoniker": "a\\Services\\CategoryService.cs",
@@ -564,12 +557,11 @@
               "RelativeToolTip": "a\\Services\\CategoryService.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAQwDcAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-29T22:29:39.358Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-29T22:29:39.358Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "LotteryResultRepository.cs",
               "DocumentMoniker": "D:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\projects\\Angular_Api\\server\\project\\a\\a\\Repositories\\LotteryResultRepository.cs",
               "RelativeDocumentMoniker": "a\\Repositories\\LotteryResultRepository.cs",
@@ -577,12 +569,11 @@
               "RelativeToolTip": "a\\Repositories\\LotteryResultRepository.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAAwBcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-04T18:07:21.986Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-04T18:07:21.986Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "DonorRepository.cs",
               "DocumentMoniker": "D:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\projects\\Angular_Api\\server\\project\\a\\a\\Repositories\\DonorRepository.cs",
               "RelativeDocumentMoniker": "a\\Repositories\\DonorRepository.cs",
@@ -590,12 +581,11 @@
               "RelativeToolTip": "a\\Repositories\\DonorRepository.cs",
               "ViewState": "AgIAAEAAAAAAAAAAAADwvyoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-04T18:07:39.45Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-04T18:07:39.45Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "DonorService.cs",
               "DocumentMoniker": "D:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\projects\\Angular_Api\\server\\project\\a\\a\\Services\\DonorService.cs",
               "RelativeDocumentMoniker": "a\\Services\\DonorService.cs",
@@ -603,12 +593,11 @@
               "RelativeToolTip": "a\\Services\\DonorService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-04T18:08:03.942Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-04T18:08:03.942Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "CategoryRepository.cs",
               "DocumentMoniker": "D:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\projects\\Angular_Api\\server\\project\\a\\a\\Repositories\\CategoryRepository.cs",
               "RelativeDocumentMoniker": "a\\Repositories\\CategoryRepository.cs",
@@ -616,12 +605,11 @@
               "RelativeToolTip": "a\\Repositories\\CategoryRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-29T22:31:53.43Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-29T22:31:53.43Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 31,
               "Title": "LotteryResultService.cs",
               "DocumentMoniker": "D:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\projects\\Angular_Api\\server\\project\\a\\a\\Services\\LotteryResultService.cs",
               "RelativeDocumentMoniker": "a\\Services\\LotteryResultService.cs",
@@ -629,12 +617,11 @@
               "RelativeToolTip": "a\\Services\\LotteryResultService.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAAcwAwAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-06T10:41:58.945Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-06T10:41:58.945Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 32,
               "Title": "PresentService.cs",
               "DocumentMoniker": "D:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\projects\\Angular_Api\\server\\project\\a\\a\\Services\\PresentService.cs",
               "RelativeDocumentMoniker": "a\\Services\\PresentService.cs",
@@ -642,12 +629,11 @@
               "RelativeToolTip": "a\\Services\\PresentService.cs",
               "ViewState": "AgIAADkAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-21T19:41:16.424Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-21T19:41:16.424Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 33,
               "Title": "PresentRepository.cs",
               "DocumentMoniker": "D:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\projects\\Angular_Api\\server\\project\\a\\a\\Repositories\\PresentRepository.cs",
               "RelativeDocumentMoniker": "a\\Repositories\\PresentRepository.cs",
@@ -655,12 +641,11 @@
               "RelativeToolTip": "a\\Repositories\\PresentRepository.cs",
               "ViewState": "AgIAADUAAAAAAAAAAAAcwEYAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-29T22:31:37.489Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-29T22:31:37.489Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 34,
               "Title": "MiddlewareExtensions.cs",
               "DocumentMoniker": "D:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\projects\\Angular_Api\\server\\project\\a\\a\\Middleware\\MiddlewareExtensions.cs",
               "RelativeDocumentMoniker": "a\\Middleware\\MiddlewareExtensions.cs",
@@ -668,12 +653,11 @@
               "RelativeToolTip": "a\\Middleware\\MiddlewareExtensions.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-21T20:04:20.056Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-21T20:04:20.056Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 35,
               "Title": "RateLimitingMiddleware.cs",
               "DocumentMoniker": "D:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\projects\\Angular_Api\\server\\project\\a\\a\\Middleware\\RateLimitingMiddleware.cs",
               "RelativeDocumentMoniker": "a\\Middleware\\RateLimitingMiddleware.cs",
@@ -681,12 +665,11 @@
               "RelativeToolTip": "a\\Middleware\\RateLimitingMiddleware.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAFkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-21T20:04:29.843Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-21T20:04:29.843Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 36,
               "Title": "RequestLoggingMiddleware.cs",
               "DocumentMoniker": "D:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\projects\\Angular_Api\\server\\project\\a\\a\\Middleware\\RequestLoggingMiddleware.cs",
               "RelativeDocumentMoniker": "a\\Middleware\\RequestLoggingMiddleware.cs",
@@ -694,12 +677,11 @@
               "RelativeToolTip": "a\\Middleware\\RequestLoggingMiddleware.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-21T20:04:35.578Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-21T20:04:35.578Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 37,
               "Title": "ILotteryResultRepository.cs",
               "DocumentMoniker": "D:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\projects\\Angular_Api\\server\\project\\a\\a\\Interfaces\\ILotteryResultRepository.cs",
               "RelativeDocumentMoniker": "a\\Interfaces\\ILotteryResultRepository.cs",
@@ -707,12 +689,11 @@
               "RelativeToolTip": "a\\Interfaces\\ILotteryResultRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-06T09:20:17.42Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-06T09:20:17.42Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 38,
               "Title": "ILotteryResultService.cs",
               "DocumentMoniker": "D:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\projects\\Angular_Api\\server\\project\\a\\a\\Interfaces\\ILotteryResultService.cs",
               "RelativeDocumentMoniker": "a\\Interfaces\\ILotteryResultService.cs",
@@ -720,21 +701,7 @@
               "RelativeToolTip": "a\\Interfaces\\ILotteryResultService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-06T09:25:20.858Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "LotteryResultDto.cs",
-              "DocumentMoniker": "D:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\projects\\Angular_Api\\server\\project\\a\\a\\Dto\\LotteryResultDto.cs",
-              "RelativeDocumentMoniker": "a\\Dto\\LotteryResultDto.cs",
-              "ToolTip": "D:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05E9\u05E0\u05D4 \u05D1\\projects\\Angular_Api\\server\\project\\a\\a\\Dto\\LotteryResultDto.cs",
-              "RelativeToolTip": "a\\Dto\\LotteryResultDto.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-06T09:24:10.499Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-06T09:25:20.858Z"
             },
             {
               "$type": "Document",
@@ -746,8 +713,7 @@
               "RelativeToolTip": "a\\Controllers\\DonorController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-06T10:33:23.226Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-06T10:33:23.226Z"
             },
             {
               "$type": "Document",
@@ -759,8 +725,7 @@
               "RelativeToolTip": "a\\Controllers\\LotteryResultController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-06T10:34:39.531Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-06T10:34:39.531Z"
             },
             {
               "$type": "Document",
@@ -772,8 +737,7 @@
               "RelativeToolTip": "a\\Interfaces\\IDonorService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-06T09:04:38.002Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-06T09:04:38.002Z"
             },
             {
               "$type": "Document",
@@ -785,8 +749,7 @@
               "RelativeToolTip": "a\\Interfaces\\IDonorRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-06T09:04:34.691Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-06T09:04:34.691Z"
             },
             {
               "$type": "Document",
@@ -798,8 +761,7 @@
               "RelativeToolTip": "a\\Interfaces\\IPresentService.cs",
               "ViewState": "AgIAAAQAAAAAAAAAAAAIwAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-29T22:08:54.497Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-29T22:08:54.497Z"
             },
             {
               "$type": "Document",
@@ -811,8 +773,7 @@
               "RelativeToolTip": "a\\Models\\Donor.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-06T09:09:51.531Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-06T09:09:51.531Z"
             },
             {
               "$type": "Document",
@@ -824,8 +785,7 @@
               "RelativeToolTip": "a\\Interfaces\\IPresentRepository.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAIBQwA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-29T22:09:38.795Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-29T22:09:38.795Z"
             },
             {
               "$type": "Document",
@@ -837,8 +797,7 @@
               "RelativeToolTip": "a\\Dto\\PaginationDTOs.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-08T13:23:10.837Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-08T13:23:10.837Z"
             },
             {
               "$type": "Document",
@@ -850,8 +809,7 @@
               "RelativeToolTip": "a\\Controllers\\CategoryController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAIBJwAcAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-29T22:32:35.35Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-29T22:32:35.35Z"
             },
             {
               "$type": "Document",
@@ -863,8 +821,7 @@
               "RelativeToolTip": "a\\Models\\Category.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-06T19:52:03.897Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-06T19:52:03.897Z"
             },
             {
               "$type": "Document",
@@ -876,8 +833,7 @@
               "RelativeToolTip": "a\\Interfaces\\IUserRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-29T22:08:50.875Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-29T22:08:50.875Z"
             },
             {
               "$type": "Document",
@@ -889,8 +845,7 @@
               "RelativeToolTip": "a\\Interfaces\\IPurchaseRepository.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAxwAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-06T10:11:34.245Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-06T10:11:34.245Z"
             },
             {
               "$type": "Document",
@@ -902,8 +857,7 @@
               "RelativeToolTip": "a\\Models\\LotteryResult.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-06T09:24:21.834Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-06T09:24:21.834Z"
             },
             {
               "$type": "Document",
@@ -915,8 +869,7 @@
               "RelativeToolTip": "a\\Interfaces\\ICategoryRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-28T15:09:05.608Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-28T15:09:05.608Z"
             },
             {
               "$type": "Document",
@@ -928,8 +881,7 @@
               "RelativeToolTip": "a\\Interfaces\\ICategoryService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-28T15:09:28.992Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-28T15:09:28.992Z"
             },
             {
               "$type": "Document",
@@ -941,8 +893,7 @@
               "RelativeToolTip": "a\\Dto\\CategoryDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-06T09:09:26.244Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-06T09:09:26.244Z"
             }
           ]
         }
