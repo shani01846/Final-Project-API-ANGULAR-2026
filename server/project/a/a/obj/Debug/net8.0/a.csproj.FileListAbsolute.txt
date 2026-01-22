@@ -1,0 +1,119 @@
+M:\project\a\a\obj\Debug\net8.0\a.csproj.AssemblyReference.cache
+M:\project\a\a\obj\Debug\net8.0\rpswa.dswa.cache.json
+M:\project\a\a\obj\Debug\net8.0\a.GeneratedMSBuildEditorConfig.editorconfig
+M:\project\a\a\obj\Debug\net8.0\a.AssemblyInfoInputs.cache
+M:\project\a\a\obj\Debug\net8.0\a.AssemblyInfo.cs
+M:\project\a\a\obj\Debug\net8.0\a.csproj.CoreCompileInputs.cache
+M:\project\a\a\obj\Debug\net8.0\a.MvcApplicationPartsAssemblyInfo.cs
+M:\project\a\a\obj\Debug\net8.0\a.MvcApplicationPartsAssemblyInfo.cache
+D:\project\a\a\bin\Debug\net8.0\appsettings.Development.json
+D:\project\a\a\bin\Debug\net8.0\appsettings.json
+D:\project\a\a\bin\Debug\net8.0\a.staticwebassets.endpoints.json
+D:\project\a\a\bin\Debug\net8.0\a.exe
+D:\project\a\a\bin\Debug\net8.0\a.deps.json
+D:\project\a\a\bin\Debug\net8.0\a.runtimeconfig.json
+D:\project\a\a\bin\Debug\net8.0\a.dll
+D:\project\a\a\bin\Debug\net8.0\a.pdb
+D:\project\a\a\bin\Debug\net8.0\Azure.Core.dll
+D:\project\a\a\bin\Debug\net8.0\Azure.Identity.dll
+D:\project\a\a\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\project\a\a\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+D:\project\a\a\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\project\a\a\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\project\a\a\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\project\a\a\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\project\a\a\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\project\a\a\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+D:\project\a\a\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\project\a\a\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+D:\project\a\a\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\project\a\a\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+D:\project\a\a\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\project\a\a\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+D:\project\a\a\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+D:\project\a\a\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+D:\project\a\a\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\project\a\a\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\project\a\a\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\project\a\a\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\project\a\a\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\project\a\a\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\project\a\a\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\project\a\a\bin\Debug\net8.0\Microsoft.OpenApi.dll
+D:\project\a\a\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+D:\project\a\a\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+D:\project\a\a\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\project\a\a\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\project\a\a\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\project\a\a\bin\Debug\net8.0\System.ClientModel.dll
+D:\project\a\a\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+D:\project\a\a\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
+D:\project\a\a\bin\Debug\net8.0\System.Drawing.Common.dll
+D:\project\a\a\bin\Debug\net8.0\System.Formats.Asn1.dll
+D:\project\a\a\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\project\a\a\bin\Debug\net8.0\System.IO.Pipelines.dll
+D:\project\a\a\bin\Debug\net8.0\System.Memory.Data.dll
+D:\project\a\a\bin\Debug\net8.0\System.Runtime.Caching.dll
+D:\project\a\a\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\project\a\a\bin\Debug\net8.0\System.Security.Permissions.dll
+D:\project\a\a\bin\Debug\net8.0\System.Text.Encodings.Web.dll
+D:\project\a\a\bin\Debug\net8.0\System.Text.Json.dll
+D:\project\a\a\bin\Debug\net8.0\System.Windows.Extensions.dll
+D:\project\a\a\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\project\a\a\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\project\a\a\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\project\a\a\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\project\a\a\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\project\a\a\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\project\a\a\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\project\a\a\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\project\a\a\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\project\a\a\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\project\a\a\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\project\a\a\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+D:\project\a\a\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\project\a\a\obj\Debug\net8.0\a.csproj.AssemblyReference.cache
+D:\project\a\a\obj\Debug\net8.0\rpswa.dswa.cache.json
+D:\project\a\a\obj\Debug\net8.0\a.GeneratedMSBuildEditorConfig.editorconfig
+D:\project\a\a\obj\Debug\net8.0\a.AssemblyInfoInputs.cache
+D:\project\a\a\obj\Debug\net8.0\a.AssemblyInfo.cs
+D:\project\a\a\obj\Debug\net8.0\a.csproj.CoreCompileInputs.cache
+D:\project\a\a\obj\Debug\net8.0\a.MvcApplicationPartsAssemblyInfo.cs
+D:\project\a\a\obj\Debug\net8.0\a.MvcApplicationPartsAssemblyInfo.cache
+D:\project\a\a\obj\Debug\net8.0\rjimswa.dswa.cache.json
+D:\project\a\a\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+D:\project\a\a\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+D:\project\a\a\obj\Debug\net8.0\scopedcss\bundle\a.styles.css
+D:\project\a\a\obj\Debug\net8.0\staticwebassets.build.json
+D:\project\a\a\obj\Debug\net8.0\staticwebassets.build.json.cache
+D:\project\a\a\obj\Debug\net8.0\staticwebassets.development.json
+D:\project\a\a\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\project\a\a\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+D:\project\a\a\obj\Debug\net8.0\a.csproj.Up2Date
+D:\project\a\a\obj\Debug\net8.0\a.dll
+D:\project\a\a\obj\Debug\net8.0\refint\a.dll
+D:\project\a\a\obj\Debug\net8.0\a.pdb
+D:\project\a\a\obj\Debug\net8.0\a.genruntimeconfig.cache
+D:\project\a\a\obj\Debug\net8.0\ref\a.dll
+D:\לימודים\שנה ב\projects\Angular_Api\server\project\a\a\obj\Debug\net8.0\a.csproj.AssemblyReference.cache
+D:\לימודים\שנה ב\projects\Angular_Api\server\project\a\a\obj\Debug\net8.0\rpswa.dswa.cache.json
+D:\לימודים\שנה ב\projects\Angular_Api\server\project\a\a\obj\Debug\net8.0\a.GeneratedMSBuildEditorConfig.editorconfig
+D:\לימודים\שנה ב\projects\Angular_Api\server\project\a\a\obj\Debug\net8.0\a.AssemblyInfoInputs.cache
+D:\לימודים\שנה ב\projects\Angular_Api\server\project\a\a\obj\Debug\net8.0\a.AssemblyInfo.cs
+D:\לימודים\שנה ב\projects\Angular_Api\server\project\a\a\obj\Debug\net8.0\a.csproj.CoreCompileInputs.cache
+D:\לימודים\שנה ב\projects\Angular_Api\server\project\a\a\obj\Debug\net8.0\a.MvcApplicationPartsAssemblyInfo.cs
+D:\לימודים\שנה ב\projects\Angular_Api\server\project\a\a\obj\Debug\net8.0\a.MvcApplicationPartsAssemblyInfo.cache
+D:\לימודים\שנה ב\projects\Angular_Api\server\project\a\a\obj\Debug\net8.0\a.dll
+D:\לימודים\שנה ב\projects\Angular_Api\server\project\a\a\obj\Debug\net8.0\refint\a.dll
+D:\לימודים\שנה ב\projects\Angular_Api\server\project\a\a\obj\Debug\net8.0\a.pdb
+F:\לימודים\שנה ב\projects\Angular_Api\server\project\a\a\obj\Debug\net8.0\a.csproj.AssemblyReference.cache
+F:\לימודים\שנה ב\projects\Angular_Api\server\project\a\a\obj\Debug\net8.0\rpswa.dswa.cache.json
+F:\לימודים\שנה ב\projects\Angular_Api\server\project\a\a\obj\Debug\net8.0\a.GeneratedMSBuildEditorConfig.editorconfig
+F:\לימודים\שנה ב\projects\Angular_Api\server\project\a\a\obj\Debug\net8.0\a.AssemblyInfoInputs.cache
+F:\לימודים\שנה ב\projects\Angular_Api\server\project\a\a\obj\Debug\net8.0\a.AssemblyInfo.cs
+F:\לימודים\שנה ב\projects\Angular_Api\server\project\a\a\obj\Debug\net8.0\a.csproj.CoreCompileInputs.cache
+F:\לימודים\שנה ב\projects\Angular_Api\server\project\a\a\obj\Debug\net8.0\a.MvcApplicationPartsAssemblyInfo.cs
+F:\לימודים\שנה ב\projects\Angular_Api\server\project\a\a\obj\Debug\net8.0\a.MvcApplicationPartsAssemblyInfo.cache
+F:\לימודים\שנה ב\projects\Angular_Api\server\project\a\a\obj\Debug\net8.0\a.dll
+F:\לימודים\שנה ב\projects\Angular_Api\server\project\a\a\obj\Debug\net8.0\refint\a.dll
+F:\לימודים\שנה ב\projects\Angular_Api\server\project\a\a\obj\Debug\net8.0\a.pdb
