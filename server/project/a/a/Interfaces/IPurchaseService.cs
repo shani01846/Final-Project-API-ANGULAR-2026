@@ -13,8 +13,8 @@ public interface IPurchaseService
     //Task<PurchaseDto?> UpdatePurchaseAsync(int id, PurchaseDto updateDto);
     Task<bool> DeletePurchaseAsync(int id);
 
-    Task<IEnumerable<PurchaseDto>> getByPresentId(int id);
+    Task<IEnumerable<PurchaseDto>> GetByPresentIdAsync(int id);
     Task<decimal> GetSumForAllAsync();
-    Task<IEnumerable<PurchaseDto>> getAllPurchasesIsDraftAsync();
+    Task<IEnumerable<PurchaseDto>> GetAllPurchasesIsDraftAsync();
 }
    

@@ -14,14 +14,14 @@ namespace a.Repositories
         {
             _context = context;
         }
-        public async Task<Donor> CreateDonor(Donor donor)
+        public async Task<Donor> CreateDonorAsync(Donor donor)
         {
              _context.Donors.Add(donor);
             await _context.SaveChangesAsync();
             return donor;
         }
 
-        public async Task<bool> Delete(int id)
+        public async Task<bool> DeleteAsync(int id)
         {
             var donor = await _context.Donors.FindAsync(id);
             if(donor == null) return false;
@@ -33,7 +33,7 @@ namespace a.Repositories
 
         public async Task<bool> ExistsAsync(int id)
         {
-            return await _context.Donors.AnyAsync(p => p.Id == id);
+            return await _context.Donors.AnyAsync(p => p.UserId == id);
         }
 
         public async Task<IEnumerable<Donor>> GetAllAsync()
@@ -46,7 +46,7 @@ namespace a.Repositories
 
       
 
-        public async Task<Donor?> GetByEmail(string email)
+        public async Task<Donor?> GetByEmailAsync(string email)
         {
             return await _context.Donors
             .FirstOrDefaultAsync(u => u.Email == email);
@@ -56,10 +56,10 @@ namespace a.Repositories
         {
             return await _context.Donors
                .Include(d => d.Presents)
-               .FirstOrDefaultAsync(p => p.Id == id) ?? null;
+               .FirstOrDefaultAsync(p => p.UserId == id) ?? null;
         }
 
-        public async Task<IEnumerable<Donor?>> getByName(string name)
+        public async Task<IEnumerable<Donor?>> GetByNameAsync(string name)
         {
             return await _context.Donors
              .Where(u => u.Name == name)
@@ -67,7 +67,7 @@ namespace a.Repositories
             .ToListAsync();
         }
 
-        public async Task<Donor?> GetByPresentId(int presentId)
+        public async Task<Donor?> GetByPresentIdAsync(int presentId)
         {
             return await _context.Presents
                 .Where(p=>p.Id == presentId)
@@ -76,9 +76,9 @@ namespace a.Repositories
                 
         }
 
-        public async Task<Donor> Update(Donor donor)
+        public async Task<Donor> UpdateAsync(Donor donor)
         {
-            var existing = await _context.Donors.FindAsync(donor.Id);
+            var existing = await _context.Donors.FindAsync(donor.UserId);
             if (existing == null) return null;
            _context.Entry(existing).CurrentValues.SetValues(donor);
             await _context.SaveChangesAsync();

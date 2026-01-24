@@ -66,28 +66,28 @@ namespace a.Controllers
             }
         }
 
-        [HttpPut("{id}")]
+        //[HttpPut("{id}")]
         //[ProducesResponseType(typeof(PurchaseDto), StatusCodes.Status200OK)]
         //[ProducesResponseType(StatusCodes.Status404NotFound)]
         //[ProducesResponseType(StatusCodes.Status400BadRequest)]
-        public async Task<ActionResult<PurchaseDto>> Update(int id, [FromBody] PurchaseDto updateDto)
-        {
-            try
-            {
-                var order = await _orderService.UpdatePurchaseAsync(id, updateDto);
+        //public async Task<ActionResult<PurchaseDto>> UpdateAsync(int id, [FromBody] PurchaseDto updateDto)
+        //{
+        //    try
+        //    {
+        //        var order = await _orderService.UpdatePurchaseAsync(id, updateDto);
 
-                if (order == null)
-                {
-                    return NotFound(new { message = $"Order with ID {id} not found." });
-                }
+        //        if (order == null)
+        //        {
+        //            return NotFound(new { message = $"Order with ID {id} not found." });
+        //        }
 
-                return Ok(order);
-            }
-            catch (ArgumentException ex)
-            {
-                return BadRequest(new { message = ex.Message });
-            }
-        }
+        //        return Ok(order);
+        //    }
+        //    catch (ArgumentException ex)
+        //    {
+        //        return BadRequest(new { message = ex.Message });
+        //    }
+        //}
 
         [HttpDelete("{id}")]
         //[ProducesResponseType(StatusCodes.Status204NoContent)]

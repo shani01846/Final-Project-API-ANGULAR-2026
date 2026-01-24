@@ -1,12 +1,15 @@
 ﻿using a.Controllers;
 using a.Dto;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using NET.Dto;
 using NET.Models;
 using StoreApi.Interfaces;
 
-namespace NET.Controllers
+namespace a.Controllers
 {
+    [ApiController]
+    [Route("api/[controller]")]
     public class UserController : ControllerBase
     {
         private readonly IUserService _userService;
@@ -20,7 +23,7 @@ namespace NET.Controllers
             _logger = logger;
         }
         [HttpPost]
-        public async Task<ActionResult<RgisterDto>> Create([FromBody] RgisterDto createDto)
+        public async Task<ActionResult<UserDto>> Create([FromBody] CreateUserDto createDto)
         {
             try
             {
@@ -44,8 +47,9 @@ namespace NET.Controllers
 
             return Ok(user);
         }
+        [Authorize]
         [HttpPut("{id}")]
-        public async Task<ActionResult<RgisterDto>> Update(int id, [FromBody] RgisterDto updateDto)
+        public async Task<ActionResult<RgisterDto>> Update(int id, [FromBody] CreateUserDto updateDto)
         {
             try
             {
@@ -63,8 +67,8 @@ namespace NET.Controllers
                 return BadRequest(new { message = ex.Message });
             }
         }
-
-        [HttpDelete]
+        [Authorize]
+        [HttpDelete("{id}")]
         public async Task<IActionResult> Delete(int id)
         {
             var result = await _userService.DeleteUserAsync(id);

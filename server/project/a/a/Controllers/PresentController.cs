@@ -1,4 +1,5 @@
 ﻿using a.Dto;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using StoreApi.DTOs;
 using StoreApi.Interfaces;
@@ -31,7 +32,7 @@ namespace a.Controllers
         {
             var present = await _presentService.GetPresentByIdAsync(id);
             if (present == null)
-                return NotFound(new { massage = $"present with Id: {id} not found" });
+                return NotFound(new { massage = $"present with UserId: {id} not found" });
 
             return Ok(present);
         }
@@ -42,9 +43,9 @@ namespace a.Controllers
             return Ok(presents);
         }
         //create present dto
-
+        [Authorize(Roles = "Donor")]
         [HttpPost]
-        public async Task<ActionResult<PresentDto>> Create([FromBody] PresentDto presentDto)
+        public async Task<ActionResult<PresentDto>> Create([FromBody] CreatePresentDto presentDto)
         {
             try
             {
@@ -56,6 +57,7 @@ namespace a.Controllers
                 return BadRequest(new { massage = ex.Message });
             }
         }
+        [Authorize(Roles = "Admin,Donor")]
 
         [HttpPut("{id}")]
         public async Task<ActionResult<PresentDto>> Update(int id, [FromBody] UpdatePresentDto presentDto)
@@ -80,6 +82,7 @@ namespace a.Controllers
             }
         }
 
+        [Authorize(Roles = "Admin")]
         [HttpDelete("{id}")]
         public async Task<ActionResult<PresentDto>> Delete(int id)
         {

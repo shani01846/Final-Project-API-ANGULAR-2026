@@ -12,7 +12,7 @@ public interface IPurchaseRepository
     Task<Purchase?> UpdateAsync(Purchase order);
     Task<bool> DeleteAsync(int id);
     Task<bool> ExistsAsync(int id);
-    Task<IEnumerable<Purchase>> getByPresentId(int id);
+    Task<IEnumerable<Purchase>> GetByPresentIdAsync(int id);
 
     Task<decimal> GetSumForAllAsync();
     Task<IEnumerable<Purchase>> getAllPurchasesIsDraftAsync();

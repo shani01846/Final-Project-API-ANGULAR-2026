@@ -9,13 +9,14 @@ namespace a.Services
     public class UserService : IUserService
     {
         private readonly IUserRepository _userRepository;
+        private readonly IDonorRepository _donorRepository;
         private readonly ITokenService _tokenService;
         private readonly IConfiguration _configuration;
         private readonly ILogger< UserService>_logger;
 
         public UserService(
             IUserRepository userRepository,
-            ITokenService tokenService,
+            ITokenService tokenService,IDonorRepository donorRepository,
             IConfiguration configuration,
             ILogger< UserService> logger)
         {
@@ -23,13 +24,35 @@ namespace a.Services
             _userRepository = userRepository;
             _tokenService = tokenService;
             _logger = logger;
+            _donorRepository = donorRepository;
         }
         public async Task<LoginResponeDto?> AuthenticateAsync(string email, string password)
         {
+            var donor = await _donorRepository.GetByEmailAsync(email);
+            if(donor != null)
+            {
+                var hashedPasswordDonor = HashPassword(password);
+                if (donor.User.Password != hashedPasswordDonor)
+                {
+                    _logger.LogWarning("Donor Login attempt failed: Invalid password for email {Email}", email);
+                    return null;
+                }
+                var token_d = _tokenService.GenerateToken(donor.UserId, donor.Email, donor.User.FirstName, donor.User.LastName,2);
+                var expiryMinutes_d = _configuration.GetValue<int>("jwtSettings:ExpiryMinutes", 60);
+                _logger.LogInformation("User {UserId} authenticated successfully", donor.User.Id);
+
+                return new LoginResponeDto
+                {
+                    Token = token_d,
+                    TokenType = "Bearer",
+                    ExpiresIn = expiryMinutes_d * 60,
+                    User = MapToResponseDto(donor.User)
+                };
+            }
             var user = await _userRepository.GetByEmailAsync(email);
             if (user == null)
             {
-                _logger.LogWarning("Loggin attemp was failed:User not found for email {Email}", email);
+                _logger.LogWarning("User Loggin attemp was failed:User not found for email {Email}", email);
                 return null;
             }
 
@@ -40,7 +63,7 @@ namespace a.Services
                 return null;
             }
 
-            var token = _tokenService.GenerateToken(user.Id, user.Email, user.FirstName, user.LastName);
+            var token = _tokenService.GenerateToken(user.Id, user.Email, user.FirstName, user.LastName,user.IsManager?1:0);
             var expiryMinutes = _configuration.GetValue<int>("jwtSettings:ExpiryMinutes", 60);
             _logger.LogInformation("User {UserId} authenticated successfully", user.Id);
 
@@ -53,7 +76,7 @@ namespace a.Services
             };
         }
 
-        public async Task<UserDto> CreateUserAsync(RgisterDto createDto)
+        public async Task<UserDto> CreateUserAsync(CreateUserDto createDto)
         {
             if( await _userRepository.EmailExistsAsync(createDto.Email) )
             {
@@ -94,10 +117,10 @@ namespace a.Services
             return user!=null ? MapToResponseDto(user) : null;
         }
 
-        public async Task<UserDto?> UpdateUserAsync(int id, UserDto updateDto)
+        public async Task<UserDto?> UpdateUserAsync(int id, CreateUserDto updateDto)
         {
             var existingUser = await _userRepository.GetByIdAsync(id);
-            if (existingUser !== null) return null;
+            if (existingUser != null) return null;
             if(updateDto != null && updateDto.Email!=existingUser.Email)
             {
                 if(await _userRepository.EmailExistsAsync(updateDto.Email))

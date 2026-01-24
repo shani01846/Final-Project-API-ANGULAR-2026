@@ -2,6 +2,7 @@
 
 namespace NET.Models
 {
+    
     public class User
     {
         [Key]

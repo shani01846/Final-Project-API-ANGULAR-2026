@@ -1,5 +1,6 @@
 ﻿using a.Interfaces;
 using Microsoft.IdentityModel.Tokens;
+using NET.Models;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
@@ -18,7 +19,7 @@ namespace a.Services
             _logger = logger;
         }
 
-        public string GenerateToken(int userId, string email, string firstName, string lastName)
+        public string GenerateToken(int userId, string email, string firstName, string lastName,int isManagerOrDonor)
         {
             var jwtSettings = _configuration.GetSection("JwtSettings");
             var secretKey = jwtSettings["SecretKey"] ?? throw new InvalidOperationException("JWT SecretKey is not configured");
@@ -36,7 +37,10 @@ namespace a.Services
             new Claim(JwtRegisteredClaimNames.GivenName, firstName),
             new Claim(JwtRegisteredClaimNames.FamilyName, lastName),
             new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),
-            new Claim(ClaimTypes.NameIdentifier, userId.ToString())
+            new Claim(ClaimTypes.NameIdentifier, userId.ToString()),
+            new Claim(ClaimTypes.Role, isManagerOrDonor==1 ? "Admin" :isManagerOrDonor==2? "Donor":"User")  // תפקיד בסיסי
+
+
         };
 
             var token = new JwtSecurityToken(

@@ -28,6 +28,8 @@ builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
 builder.Services.AddScoped<IPresentRepository, PresentRepository>();
 builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddScoped<IPurchaseRepository, PurchaseRepository>();
+builder.Services.AddScoped<IDonorRepository, DonorRepository>();
+
 
 // Register Services (Scoped - one instance per request)
 builder.Services.AddScoped<ICategoryService, CategoryService>();

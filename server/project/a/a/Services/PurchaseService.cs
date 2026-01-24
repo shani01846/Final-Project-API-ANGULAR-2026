@@ -79,9 +79,9 @@ namespace a.Services
         //    return updatedUser != null ? MapToResponseDto(updatedUser) : null;
         //}
 
-        public async Task<IEnumerable<PurchaseDto>> getByPresentId(int id)
+        public async Task<IEnumerable<PurchaseDto>> GetByPresentIdAsync(int id)
         {
-            var purchases = await _purchaseRepository.getByPresentId(id);
+            var purchases = await _purchaseRepository.GetByPresentIdAsync(id);
             return purchases!=null ? purchases.Select(MapToResponseDto) : null;
         }
 
@@ -90,7 +90,7 @@ namespace a.Services
             return await _purchaseRepository.GetSumForAllAsync();
         }
 
-        public async Task<IEnumerable<PurchaseDto>> getAllPurchasesIsDraftAsync()
+        public async Task<IEnumerable<PurchaseDto>> GetAllPurchasesIsDraftAsync()
         {
             var purchases = await _purchaseRepository.getAllPurchasesIsDraftAsync();
             return purchases.Select(MapToResponseDto);

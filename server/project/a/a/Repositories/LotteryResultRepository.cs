@@ -15,14 +15,14 @@ namespace a.Repositories
         {
             _context = context;
         }
-        public async Task<LotteryResult> createWinner(LotteryResult lr)
+        public async Task<LotteryResult> CreateWinnerAsync(LotteryResult lr)
         {
             _context.LotteryResults.Add(lr);
             await _context.SaveChangesAsync();
             return lr;
         }
 
-        public async Task<IEnumerable<LotteryResult>> GetAll()
+        public async Task<IEnumerable<LotteryResult>> GetAllAsync()
         {
             return await _context.LotteryResults
                 .Include(l=>l.Winner)
@@ -30,7 +30,7 @@ namespace a.Repositories
                 .ToListAsync();
         }
 
-        public async Task<LotteryResult> makeLottery(int presentId)
+        public async Task<LotteryResult> MakeLotteryAsync(int presentId)
         {
             using var transaction = await _context.Database.BeginTransactionAsync();
             
@@ -51,7 +51,7 @@ namespace a.Repositories
             //יצירת זוכה
            var result = new LotteryResult() { PresentId = presentId, WinnerUserId = winner.Id};
 
-           await createWinner(result);
+           await CreateWinnerAsync(result);
 
             //עדכון שנעשתה ההגרלה למתנה זו
            p.IsLotteryDone=true;

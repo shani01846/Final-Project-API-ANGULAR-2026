@@ -69,7 +69,7 @@ namespace a.Repositories
         //    return purchase;
         }
 
-        public async Task<IEnumerable<Purchase>> getByPresentId(int id)
+        public async Task<IEnumerable<Purchase>> GetByPresentIdAsync(int id)
         {
 
             return await _context.Purchases

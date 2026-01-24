@@ -5,9 +5,9 @@ namespace a.Interfaces
 {
     public interface ILotteryResultRepository
     {
-        Task<LotteryResult> createWinner(LotteryResult lr); //(send email to the winner)
-       Task<IEnumerable<LotteryResult>> GetAll(); //includes winner and present
-        Task<LotteryResult> makeLottery(int presentId);//– update Lottery Done
+        Task<LotteryResult> CreateWinnerAsync(LotteryResult lr); //(send email to the winner)
+       Task<IEnumerable<LotteryResult>> GetAllAsync(); //includes winner and present
+        Task<LotteryResult> MakeLotteryAsync(int presentId);//– update Lottery Done
 
     }
 }

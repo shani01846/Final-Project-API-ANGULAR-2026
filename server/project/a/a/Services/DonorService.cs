@@ -16,7 +16,7 @@ namespace a.Services
             _logger = logger;
             _donorRepository = repository; 
         }
-        public async Task<DonorDto> CreateDonor(CreateDonorDto donor)
+        public async Task<DonorDto> CreateDonorAsync(CreateDonorDto donor)
         {
             var createDonor = new Donor
             {
@@ -24,13 +24,13 @@ namespace a.Services
                 Email = donor.Email
             };
 
-            var createdDonor = await _donorRepository.CreateDonor(createDonor);
+            var createdDonor = await _donorRepository.CreateDonorAsync(createDonor);
             return MapToResponseDto(createdDonor);
         }
 
-        public async Task<bool> Delete(int id)
+        public async Task<bool> DeleteAsync(int id)
         {
-            return await _donorRepository.Delete(id);       
+            return await _donorRepository.DeleteAsync(id);       
         }
 
         public async Task<IEnumerable<DonorDto>> GetAllAsync()
@@ -39,24 +39,24 @@ namespace a.Services
            return donors.Select(MapToResponseDto);
         }
 
-        public async Task<DonorDto> GetByEmail(string email)
+        public async Task<DonorDto> GetByEmailAsync(string email)
         {
-            var donor = await _donorRepository.GetByEmail(email);
+            var donor = await _donorRepository.GetByEmailAsync(email);
             return donor != null ? MapToResponseDto(donor) : null;
 
         }
 
-        public async Task<IEnumerable<DonorDto>> getByName(string name)
+        public async Task<IEnumerable<DonorDto>> getByNameAsync(string name)
         {
-            var donors = await _donorRepository.getByName(name);
+            var donors = await _donorRepository.GetByNameAsync(name);
             return donors.Select(MapToResponseDto);
         }
-        public async Task<DonorDto> GetByPresentId(int presentId)
+        public async Task<DonorDto> GetByPresentIdAsync(int presentId)
         {
-            var donor = await _donorRepository.GetByPresentId(presentId);
+            var donor = await _donorRepository.GetByPresentIdAsync(presentId);
             return donor!=null? MapToResponseDto(donor):null;
         }
-        public async Task<DonorDto> Update(UpdateDonorDto donor)
+        public async Task<DonorDto> UpdateAsync(UpdateDonorDto donor)
         {
             var existDonor = await _donorRepository.GetByIdAsync(donor.Id);
             if (existDonor == null) return null;
@@ -64,7 +64,7 @@ namespace a.Services
             if (donor.Email != null) existDonor.Email = donor.Email;
             if (donor.Name!=null) existDonor.Name = donor.Name;
 
-            var aupdatedDonor = await _donorRepository.Update(existDonor);
+            var aupdatedDonor = await _donorRepository.UpdateAsync(existDonor);
             return aupdatedDonor != null ? MapToResponseDto(aupdatedDonor) : null;
 
         }
@@ -72,7 +72,7 @@ namespace a.Services
         {
             return new DonorDto
             {
-                Id = donor.Id,
+                Id = donor.UserId,
                 Name = donor.Name,
                 Email = donor.Email,
                 Presents = donor.Presents?.Select(p => new PresentWithDonorDto

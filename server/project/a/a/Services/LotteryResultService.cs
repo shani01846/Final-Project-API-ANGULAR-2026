@@ -17,7 +17,7 @@ namespace a.Services
             _logger = logger;
             _repository = repository;
         }
-        public async Task<LotteryResultDto> createWinner(CreateLotteryResultDto lr)
+        public async Task<LotteryResultDto> CreateWinnerAsync(CreateLotteryResultDto lr)
         {
 
             var createdWinner = new LotteryResult
@@ -28,19 +28,19 @@ namespace a.Services
             };
 
 
-            var craetedWinner = await _repository.createWinner(createdWinner);
+            var craetedWinner = await _repository.CreateWinnerAsync(createdWinner);
             return MapToResponseDto(craetedWinner);
         }
 
-        public async Task<IEnumerable<LotteryResultDto>> GetAll()
+        public async Task<IEnumerable<LotteryResultDto>> GetAllAsync()
         {
-            var results = await _repository.GetAll();
+            var results = await _repository.GetAllAsync();
             return results.Select(MapToResponseDto);
         }
 
-        public async Task<LotteryResultDto> makeLottery(int presentId)
+        public async Task<LotteryResultDto> MakeLotteryAsync(int presentId)
         {
-            var result = await _repository.makeLottery(presentId)
+            var result = await _repository.MakeLotteryAsync(presentId);
             return MapToResponseDto(result);
         }
         private static LotteryResultDto MapToResponseDto(LotteryResult lr)

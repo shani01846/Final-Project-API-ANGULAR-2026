@@ -21,7 +21,7 @@ namespace a.Services
             {
                 Name = createDto.Name
             };
-                  var createdCategory = await _.CreateAsync(category);
+                  var createdCategory = await _categoryRepository.CreateAsync(category);
             _logger.LogInformation("Category created with ID: {CategoryId}", createdCategory.Id);
 
             return MapToResponseDto(createdCategory);
