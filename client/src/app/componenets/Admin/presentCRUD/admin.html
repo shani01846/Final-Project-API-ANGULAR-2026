@@ -1,0 +1,212 @@
+ <h1>welcome admin</h1>
+ <div class="card">
+    <div class="flex gap-3 mb-4">
+    <p-button 
+        label="דוח הכנסות" 
+        icon="pi pi-file-excel" 
+        severity="success" 
+        (click)="exportRevenueReport()">
+    </p-button>
+
+    <p-button 
+        label="דוח זוכים" 
+        icon="pi pi-trophy" 
+        severity="help" 
+        (click)="exportWinnersReport()">
+    </p-button>
+</div>
+            <p-toast />
+            <p-toolbar class="mb-6">
+                <ng-template #start>
+                    <p-button label="New" icon="pi pi-plus" class="mr-2" (onClick)="openNew()" />
+                    <p-button severity="danger" label="Delete" icon="pi pi-trash" outlined (onClick)="deleteSelectedPresents()" [disabled]="!selectedPresents || !selectedPresents.length" />
+                </ng-template>
+                <ng-template #end>
+                    <p-fileUpload mode="basic" accept="image/*" [maxFileSize]="1000000" label="Import" chooseLabel="Import" auto customUpload class="mr-2 inline-block" [chooseButtonProps]="{ severity: 'secondary' }" />
+                    <!-- <p-button label="Export" icon="pi pi-upload" severity="secondary" (onClick)="exportCSV($event)"></p-button> -->
+                </ng-template>
+            </p-toolbar>
+
+            <p-table
+                #dt
+                [value]="presents"
+                [rows]="10"
+                [columns]="cols"
+                [paginator]="true"
+                [globalFilterFields]="['name', 'country.name', 'representative.name', 'status']"
+                [tableStyle]="{ 'min-width': '75rem' }"
+                [(selection)]="selectedPresents"
+                [rowHover]="true"
+                dataKey="id"
+                currentPageReportTemplate="Showing {first} to {last} of {totalRecords} entries"
+                [showCurrentPageReport]="true"
+            >
+                <ng-template #caption>
+                    <div class="flex items-center justify-between">
+                        <h5 class="m-0">Manage Presents</h5>
+                        <p-iconfield>
+                            <p-inputicon class="pi pi-search" />
+                            <input pInputText type="text" (input)="dt.filterGlobal($event.target.value, 'contains')" placeholder="Search..." />
+                        </p-iconfield>
+                    </div>
+                </ng-template>
+                <ng-template #header>
+                    <tr>
+                        <th style="width: 3rem">
+                            <p-tableHeaderCheckbox />
+                        </th>
+                        <th style="min-width: 16rem">Code</th>
+                        <th pSortableColumn="name" style="min-width:16rem">
+                            <div class="flex items-center gap-2">
+                                Name
+                                <p-sortIcon field="name" />
+                            </div>
+                        </th>
+                        <th>Image</th>
+                        <th pSortableColumn="price" style="min-width: 8rem">
+                            <div class="flex items-center gap-2">
+                                Price
+                                <p-sortIcon field="price" />
+                            </div>
+                        </th>
+                        <th pSortableColumn="category" style="min-width:10rem">
+                            <div class="flex items-center gap-2">
+                                Category
+                                <p-sortIcon field="category" />
+                            </div>
+                        </th>
+                        <th pSortableColumn="donor" style="min-width: 12rem">
+                            <div class="flex items-center gap-2">
+                                Donor
+                                <p-sortIcon field="rating" />
+                            </div>
+                        </th>
+                        <th pSortableColumn="inventoryStatus" style="min-width: 12rem">
+                            <div class="flex items-center gap-2">
+                                Num Of Purchases
+                                <p-sortIcon field="inventoryStatus" />
+                            </div>
+                        </th>
+                          <th pSortableColumn="isLotteryDone" style="min-width: 12rem">
+                            <div class="flex items-center gap-2">
+                                Is Lottery Done
+                                <p-sortIcon field="inventoryStatus" />
+                            </div>
+                        </th>
+                    </tr>
+                </ng-template>
+                <ng-template #body let-present>
+                    <tr>
+                        <td style="width: 3rem">
+                            <p-tableCheckbox [value]="present" />
+                        </td>
+                        <td style="min-width: 12rem">{{ present.id }}</td>
+                        <td style="min-width: 16rem">{{ present.name }}</td>
+                        <td>
+
+                            <img height="40px" [src]="environment.imageUrl + '/' + present.imageUrl" [alt]="present.name" style="width: 64px" class="rounded" />
+                        </td>
+                        <td>{{ present.price | currency: 'USD' }}</td>
+                        <td>{{ present.categoryName }}</td>
+                        <td style="min-width: 16rem">
+                            {{ present.donorName }}
+                            <!-- <p-rating [(ngModel)]="product.rating" [readonly]="true" [cancel]="false" /> -->
+                        </td>
+                        <td> <p-button (click)="showDialog(present)" label="{{present.numOfPurchases}}" /></td>
+
+                        <td>{{ present.isLotteryDone }}</td>
+
+                       
+    <div class="card flex justify-center">
+            <p-dialog header="Purchases for present {{present.name}}" [(visible)]="visible" [modal]="true" [breakpoints]="{ '1199px': '75vw', '575px': '90vw' }" [style]="{ width: '50vw' }" [draggable]="false" [resizable]="false">
+               <!-- <div class="card sm:flex sm:justify-center"> -->
+            <p-orderlist [value]="products()" filterBy="name" filterPlaceholder="Filter by name" [responsive]="true" breakpoint="575px" scrollHeight="20rem" class="sm:min-w-96">
+                <ng-template let-option let-selected="selected" #item>
+                    <div class="flex flex-wrap p-1 items-center gap-4 w-full">
+                        <!-- <img class="w-12 shrink-0 rounded" src="https://primefaces.org/cdn/primeng/images/demo/product/{{ option.image }}" [alt]="option.name" /> -->
+                        <div class="flex-1 flex flex-col">
+                            <span class="font-medium text-sm">{{ option.name }}</span></div>
+                             <div class="flex-1 flex flex-col"> </div>                        
+                             <div class="flex-1 flex flex-col"><span class="font-medium text-sm">{{ option.userName }}</span></div>
+                           <div class="flex-1 flex flex-col"> <span  class="font-medium text-sm">{{ option.user.address }}</span></div>
+                 <div class="flex-1 flex flex-col"> <span  class="font-medium text-sm">{{ option.user.email }}</span></div> 
+                        <div class="flex-1 flex flex-col"><span class="font-bold sm:ml-8">{{ present.price}}$</span></div>
+                       <div class="flex-1 flex flex-col"><span  class="font-medium text-sm">{{ option.id }}</span></div> 
+                     <div class="flex-1 flex flex-col"><span  class="font-medium text-sm">{{ option.name }}</span></div> 
+                    <div class="flex-1 flex flex-col"><span  class="font-medium text-sm">{{ option.numOfTickets }}</span></div> 
+                    </div>
+                </ng-template>
+            </p-orderlist>
+        <!-- </div> -->
+            </p-dialog>
+        </div>                           
+                        <td>
+                        
+
+                            <p-button icon="pi pi-pencil" class="mr-2" [rounded]="true" [outlined]="true" (click)="editPresent(present)" />
+                            <p-button icon="pi pi-trash" severity="danger" [rounded]="true" [outlined]="true" (click)="deletePresent(present)" />
+<p-button 
+    icon="pi pi-gift" 
+    class="mr-2" 
+    [rounded]="true" 
+    [outlined]="true" 
+    (click)="runLottery(present.id)"
+    [disabled]="present.isLotteryDone"
+    tooltipPosition="top">
+</p-button>                              <p-dialog header="Lottery is starting now for present {{present.name}}" [(visible)]="visible2" [modal]="true" [breakpoints]="{ '1199px': '75vw', '575px': '90vw' }" [style]="{ width: '50vw' }" [draggable]="false" [resizable]="false">
+             <p>raffle</p>
+            </p-dialog>
+                        </td>
+                    </tr>
+                </ng-template>
+            </p-table>
+            <p-dialog [(visible)]="presentDialog" [style]="{ width: '450px' }" header="Present Details" [modal]="true">
+                <ng-template #content>
+                    <div class="flex flex-col gap-6">
+                        <img [src]="environment.imageUrl + '/' + present.imageUrl" style="width: 100%; height: 60px;" [alt]="present.imageUrl" class="block m-auto pb-4" *ngIf="present.imageUrl" />
+                        <div>
+                            <label for="name" class="block font-bold mb-3">Name</label>
+                            <input type="text" pInputText id="name" [(ngModel)]="present.name" required autofocus fluid />
+                            <small class="text-red-500" *ngIf="submitted && !present.name">Name is required.</small>
+                        </div>
+                         <div>
+                            <label for="imageUrl" class="block font-bold mb-3">ImageName</label>
+                            <input type="text" pInputText id="imageUrl" [(ngModel)]="present.imageUrl" required autofocus fluid />
+                            <small class="text-red-500" *ngIf="submitted && !present.imageUrl">Image Url is required.</small>
+                        </div>
+                        <div>
+                            <label for="description" class="block font-bold mb-3">Description</label>
+                            <textarea id="description" pTextarea [(ngModel)]="present.description" required rows="3" cols="20" fluid></textarea>
+                        </div>
+                        <div>
+                            <label for="donorId" class="block font-bold mb-3">Donor</label>
+                            <p-select [(ngModel)]="present.donorId" inputId="donorId" [options]="donors" optionLabel="name" optionValue="id" placeholder="Select a Donor" fluid />
+                        </div>
+                        <div>
+                            <span class="block font-bold mb-4">Category</span>
+                            <div class="grid grid-cols-12 gap-4">
+
+                                <div *ngFor  = "let cat of categories" class="flex items-center gap-2 col-span-6">
+                                    <p-radiobutton id="category1" name="category" [value]="cat.id" [(ngModel)]="present.categoryId" />
+                                    <label for="category1">{{cat.name}}</label>
+                                </div>
+                             
+                            </div>
+                        </div>
+                        <div class="grid grid-cols-12 gap-4">
+                            <div class="col-span-6">
+                                <label for="price" class="block font-bold mb-3">Price</label>
+                                <p-inputnumber id="price" [(ngModel)]="present.price" mode="currency" currency="ILS" locale="en-US" fluid />
+                            </div>
+                      
+                        </div>
+                        
+                    </div>
+                </ng-template>
+                <ng-template #footer>
+                    <p-button label="Cancel" icon="pi pi-times" text (click)="hideDialog()" />
+                    <p-button label="Save" icon="pi pi-check" (click)="savePresent()" />
+                </ng-template>
+            </p-dialog>
+            <p-confirmdialog [style]="{ width: '450px' }" />
+        </div>

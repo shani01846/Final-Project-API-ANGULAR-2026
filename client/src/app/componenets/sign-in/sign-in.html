@@ -1,14 +1,47 @@
-<p>sign-in works!</p>
-    <p-inputgroup>
+<!-- <p>sign-in works!</p>
+    <p-inputgroup width="10px">
     <p-inputgroup-addon>
-        <i class="pi pi-user"></i>
+        <i class="pi pi-envelope"></i>
     </p-inputgroup-addon>
-    <input pInputText [(ngModel)]="text1" placeholder="Username" />
+    <input pInputText [(ngModel)]="text1" placeholder="Email" />
+
+     <p-inputgroup-addon> <i class="pi pi-lock"></i>
+</p-inputgroup-addon>
+    <input pInputText  [(ngModel)]="text2" placeholder="Password" />
 </p-inputgroup>
 
+<a routerLink="/register">First Time? Register</a>
+
+<p-button label="Log In" icon="pi pi-user" /> -->
+<p>sign in works!</p>
 
 
-<p-inputgroup>
-    <p-inputgroup-addon>www</p-inputgroup-addon>
-    <input pInputText  [(ngModel)]="text2" placeholder="Website" />
-</p-inputgroup>
+ <div class="mb-4 p-8 flex items-center justify-center">
+            <p-card [style]="{ width: '25rem', overflow: 'hidden'}">
+                <ng-template #header >
+                    <img alt="Card" class="w-full" src="https://primefaces.org/cdn/primeng/images/card-ng.jpg"  />
+                </ng-template>
+                <ng-template #title> Join Us </ng-template>
+                <ng-template #subtitle> Please fill in the form below to register. </ng-template>
+                <div class="card flex flex-wrap justify-center items-end gap-4">
+
+                <form [formGroup]="loginForm" (ngSubmit)="login()"  class="grid gap-4 w-full">
+            <p-floatlabel>
+                <input pInputText id="over_label" formControlName="email" autocomplete="off" />
+                <label for="over_label">Email</label>
+            </p-floatlabel>
+              <p-floatlabel>
+                <input pInputText id="over_label" type="password" formControlName="password" autocomplete="off" />
+                <label for="over_label">Password</label>
+            </p-floatlabel>
+               
+                        <p-button label="Save" type="submit" class="w-full" styleClass="w-full" [disabled]="loginForm.invalid" />
+                 
+                  </form>
+                </div>
+                <a routerLink="/register">First Time? Register</a>
+
+            </p-card>
+        </div>
+<p-toast></p-toast>
+ 

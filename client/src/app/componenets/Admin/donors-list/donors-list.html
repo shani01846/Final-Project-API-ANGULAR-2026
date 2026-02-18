@@ -1,0 +1,160 @@
+<p>donors-list works!</p>
+ <div class="card">
+            <p-toast />
+            <p-toolbar class="mb-6">
+                <ng-template #start>
+                    <p-button label="New" icon="pi pi-plus" class="mr-2" (onClick)="openNew()" />
+                    <p-button severity="danger" label="Delete" icon="pi pi-trash" outlined (onClick)="deleteSelectedDonors()" [disabled]="!selectedDonors || !selectedDonors.length" />
+                </ng-template>
+                <ng-template #end>
+                    <p-fileUpload mode="basic" accept="image/*" [maxFileSize]="1000000" label="Import" chooseLabel="Import" auto customUpload class="mr-2 inline-block" [chooseButtonProps]="{ severity: 'secondary' }" />
+                    <!-- <p-button label="Export" icon="pi pi-upload" severity="secondary" (onClick)="exportCSV($event)"></p-button> -->
+                </ng-template>
+            </p-toolbar>
+            <p-table
+                #dt
+                [value]="donors"
+                [rows]="10"
+                [columns]="cols"
+                [paginator]="true"
+                [globalFilterFields]="['name', 'country.name', 'representative.name', 'status']"
+                [tableStyle]="{ 'min-width': '75rem' }"
+                [(selection)]="selectedDonors"
+                [rowHover]="true"
+                dataKey="id"
+                currentPageReportTemplate="Showing {first} to {last} of {totalRecords} entries"
+                [showCurrentPageReport]="true"
+            >
+                <ng-template #caption>
+                    <div class="flex items-center justify-between">
+                        <h5 class="m-0">Manage Products</h5>
+                        <p-iconfield>
+                            <p-inputicon class="pi pi-search" />
+                            <input pInputText type="text" (input)="dt.filterGlobal($event.target.value, 'contains')" placeholder="Search..." />
+                        </p-iconfield>
+                    </div>
+                </ng-template>
+                <ng-template #header>
+                    <tr>
+                        <th style="width: 3rem">
+                            <p-tableHeaderCheckbox />
+                        </th>
+                        <th style="min-width: 16rem">Code</th>
+                        <th pSortableColumn="name" style="min-width:16rem">
+                            <div class="flex items-center gap-2">
+                                Name
+                                <p-sortIcon field="name" />
+                            </div>
+                        </th>
+                        <th pSortableColumn="email" style="min-width: 8rem">
+                            <div class="flex items-center gap-2">
+                                Email
+                                <p-sortIcon field="email" />
+                            </div>
+                        </th>
+                        <th pSortableColumn="numOfPresents" style="min-width:10rem">
+                            <div class="flex items-center gap-2">
+                                Number of Presents
+                                <p-sortIcon field="numOfPresents" />
+                            </div>
+                        </th>
+                        <th pSortableColumn="presents" style="min-width: 12rem">
+                            <div class="flex items-center gap-2">
+                                Presents
+                                <p-sortIcon field="presents" />
+                            </div>
+                        </th>
+                       
+                        <th style="min-width: 12rem"></th>
+                    </tr>
+                </ng-template>
+                <ng-template #body let-donor>
+                    <tr>
+                        <td style="width: 3rem">
+                            <p-tableCheckbox [value]="donor" />
+                        </td>
+                        <td style="min-width: 12rem">{{ donor.id }}</td>
+                        <td style="min-width: 16rem">{{ donor.name }}</td>
+                     
+                        <td>{{ donor.email }}</td>
+                        <td>{{ donor.presents.length }}</td>
+                        <td>
+                            <!-- <p-rating [(ngModel)]="donor.rating" [readonly]="true" [cancel]="false" /> -->
+                        </td>
+                        <td>
+     <div class="card flex justify-center">
+            <p-button (click)="showDialog(donor)" label="presents" />
+            <p-dialog header="Presents Donated By {{donor.name}}" [(visible)]="visible" [modal]="true" [breakpoints]="{ '1199px': '75vw', '575px': '90vw' }" [style]="{ width: '50vw' }" [draggable]="false" [resizable]="false">
+               <!-- <div class="card sm:flex sm:justify-center"> -->
+            <p-orderlist [value]="products()" filterBy="name" filterPlaceholder="Filter by name" [responsive]="true" breakpoint="575px" scrollHeight="20rem" class="sm:min-w-96">
+                <ng-template let-option let-selected="selected" #item>
+                    <div class="flex flex-wrap p-1 items-center gap-4 w-full">
+                        <img height="40px" class="rounded"[src]="environment.imageUrl + '/' + option.imageUrl" [alt]="option.name" />
+                        <div class="flex-1 flex flex-col">
+                            <span class="font-medium text-sm">{{ option.name }}</span>
+                            <span
+                                [ngClass]="{
+                                    'text-sm': true,
+                                    'text-surface-500': !selected,
+                                    'dark:text-surface-400': !selected,
+                                    'text-inherit': selected
+                                }"
+                                >{{ option.id }}</span>
+                        </div>
+                        <span class="font-bold sm:ml-8">{{ '$' + option.price }}</span>
+                    </div>
+                </ng-template>
+            </p-orderlist>
+        <!-- </div> -->
+            </p-dialog>
+        </div>                        </td>
+                        <td>
+                            <p-button icon="pi pi-pencil" class="mr-2" [rounded]="true" [outlined]="true" (click)="editDonor(donor)" />
+                            <p-button icon="pi pi-trash" severity="danger" [rounded]="true" [outlined]="true" (click)="deleteDonor(donor)" />
+                        </td>
+                    </tr>
+                </ng-template>
+            </p-table>
+            <p-dialog [(visible)]="donorDialog" [style]="{ width: '450px' }" header="Donor Details" [modal]="true">
+                <ng-template #content>
+                    <div class="flex flex-col gap-6">
+                        <!-- <img [src]="'https://primefaces.org/cdn/primeng/images/demo/product/' + donor.imageUrl" [alt]="donor.imageUrl" class="block m-auto pb-4" *ngIf="donor.imageUrl" /> -->
+                        <div>
+                            <label for="name" class="block font-bold mb-3">Name</label>
+                            <input type="text" pInputText id="name" [(ngModel)]="donor.name" required autofocus fluid />
+                            <small class="text-red-500" *ngIf="submitted && !donor.name">Name is required.</small>
+                        </div>
+                        <div>
+                            <label for="description" class="block font-bold mb-3">Email</label>
+                            <input type="email" pInputText id="email" [(ngModel)]="donor.email" required />
+                            <small class="text-red-500" *ngIf="submitted && !donor.email">Email is required.</small>
+                        </div>
+                        <div>
+                            <!-- <label for="inventoryStatus" class="block font-bold mb-3">Inventory Status</label> -->
+                            <!-- <p-select [(ngModel)]="donor.inventoryStatus" inputId="inventoryStatus" [options]="statuses" optionLabel="label" optionValue="label" placeholder="Select a Status" fluid /> -->
+                        </div>
+                    
+                        <!-- <div class="grid grid-cols-12 gap-4">
+                            <div class="col-span-6">
+                                <label for="email" class="block font-bold mb-3">Email</label>
+                                <p-inputtext id="email" [(ngModel)]="donor.email" locale="en-US" fluid />
+                            </div>
+                            <div class="col-span-6">
+                                <label for="quantity" class="block font-bold mb-3">Quantity</label>
+                                 <p-inputnumber id="quantity" [(ngModel)]="donor.quantity" fluid /> 
+                            </div>
+                        </div> -->
+                    </div>
+                </ng-template>
+                <ng-template #footer>
+                    <p-button label="Cancel" icon="pi pi-times" text (click)="hideDialog()" />
+                    <p-button label="Save" icon="pi pi-check" (click)="saveDonor()" />
+                </ng-template>
+            </p-dialog>
+            <p-confirmdialog [style]="{ width: '450px' }" />
+        </div>
+
+
+        <!-- list -->
+         <!--  -->
+               

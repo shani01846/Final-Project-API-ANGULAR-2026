@@ -1,0 +1,47 @@
+<p>register works!</p>
+
+
+ <div class="mb-4 p-8 flex items-center justify-center">
+            <p-card [style]="{ width: '25rem','min-height': '550px'}">
+                <ng-template #header >
+                    <img alt="Card" class="w-full " style="height: 180px; object-fit: cover;" src="https://primefaces.org/cdn/primeng/images/card-ng.jpg"  />
+                </ng-template>
+                <ng-template #title> Join Us </ng-template>
+                <ng-template #subtitle> Please fill in the form below to register. </ng-template>
+                <div class="card flex flex-col  gap-4">
+
+                <form [formGroup]="registerForm" (ngSubmit)="submit()"  class="grid gap-4 w-full">
+            <p-floatlabel class="w-full">
+                <input pInputText class="w-full" id="over_label" formControlName="firstName" autocomplete="off" />
+                <label for="over_label">First Name</label>
+            </p-floatlabel>
+              <p-floatlabel class="w-full">
+                <input pInputText class="w-full" id="over_label" formControlName="lastName" autocomplete="off" />
+                <label for="over_label">Last Name</label>
+            </p-floatlabel>
+              <p-floatlabel class="w-full">
+                <input pInputText class="w-full" id="over_label" formControlName="email" autocomplete="off" />
+                <label for="over_label">Email</label>
+            </p-floatlabel>
+                <p-floatlabel class="w-full">
+                <input pInputText id="over_label" class="w-full" formControlName="address" autocomplete="off" />
+                <label for="over_label">Address</label>
+            </p-floatlabel>
+                    <p-floatlabel class="w-full">
+                <input pInputText type="password" class="w-full" id="over_label" formControlName="password" autocomplete="off" />
+                <label for="over_label">Password</label>
+            </p-floatlabel>
+                    <p-floatlabel class="w-full">
+                <input pInputText id="over_label" class="w-full" pInputMask="999-99-9999" formControlName="phone" autocomplete="off" />
+                <label for="over_label">Phone</label>
+            </p-floatlabel>
+            
+               
+                        <p-button label="Save" type="submit" class="w-full" styleClass="w-6" [disabled]="registerForm.invalid" />
+                 
+                  </form>
+                </div>
+            </p-card>
+        </div>
+
+ 

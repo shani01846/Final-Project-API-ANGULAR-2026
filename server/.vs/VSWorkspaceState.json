@@ -1,0 +1,11 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\project",
+    "\\project\\a",
+    "\\project\\a\\a",
+    "\\project\\a\\a\\Data"
+  ],
+  "SelectedNode": "\\project\\a\\a\\Program.cs",
+  "PreviewInSolutionExplorer": false
+}

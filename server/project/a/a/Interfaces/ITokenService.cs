@@ -1,7 +1,0 @@
-﻿namespace a.Interfaces
-{
-    public interface ITokenService
-    {
-        string GenerateToken(int userId, string email, string firstName, string lastName,int isManagerOrDonor);
-    }
-}

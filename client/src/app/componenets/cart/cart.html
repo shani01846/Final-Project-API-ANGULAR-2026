@@ -1,0 +1,56 @@
+<h1>cart</h1>
+ <div class="card">
+            <p-dataview #dv [value]="products()">
+                <ng-template #list let-items>
+                    <div class="grid grid-cols-12 gap-4 grid-nogutter">
+                        <div class="col-span-12" *ngFor="let item of items; let first = first">
+                            <div class="flex flex-col sm:flex-row sm:items-center p-6 gap-4" [ngClass]="{ 'border-t border-surface-200 dark:border-surface-700': !first }">
+                                <div class="flex-none w-32 md:w-40 relative">
+                                <img class="block mx-auto rounded-border w-full h-32 md:h-40 object-cover" style="width: 100%; height: 160px;" [src]="environment.imageUrl + '/' + item.present.imageUrl" [alt]="item.name" />
+
+                                    <!-- <p-tag [value]="item.inventoryStatus" [severity]="getSeverity(item)" class="absolute dark:!bg-surface-900" [style.left.px]="4" [style.top.px]="4" /> -->
+                                </div>
+                                <div class="flex flex-col md:flex-row justify-between md:items-center flex-1 gap-6">
+                                    <div class="flex flex-row md:flex-col justify-between items-start gap-2">
+                                        <div>
+                                            <span class="font-medium text-secondary text-sm">{{ item.present.description }}</span>
+                                            <div class="text-lg font-medium text-surface-900 dark:text-surface-0 mt-2">{{ item.present.name }}</div>
+                                        </div>
+                                        <div class="bg-surface-100 dark:bg-surface-700 p-1" style="border-radius: 30px">
+                                            <div
+                                                class="bg-surface-0 dark:bg-surface-900 flex items-center gap-2 justify-center py-1 px-2"
+                                                style="border-radius: 30px; box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.04), 0px 1px 2px 0px rgba(0, 0, 0, 0.06)"
+                                            >
+                                                <span class="text-surface-900 dark:text-surface-0 font-medium text-sm">{{ item.numOfTickets }}</span>
+                                                <i class="pi pi-star-fill text-yellow-500"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="flex flex-col md:items-end gap-8">
+                                        <span class="text-xl font-semibold text-surface-900 dark:text-surface-0">{{ '$' + item.present.price }}</span>
+                                        <div class="flex flex-row-reverse md:flex-row gap-2">
+                                            <p-button icon="pi pi-heart" [outlined]="true" />
+                                            <p-button icon="pi pi-trash" (click)="deleteItem(item.id)"  class="flex-auto md:flex-initial whitespace-nowrap" label="Delete" [disabled]="item.inventoryStatus === 'OUTOFSTOCK'" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </ng-template>
+                <ng-template #footer>
+    <div class="flex justify-between items-center p-4">
+        <div class="text-xl font-bold">
+            Total: {{ calculateTotal() | currency }}
+        </div>
+        <p-button 
+            label="Checkout All" 
+            icon="pi pi-check-circle" 
+            severity="success" 
+            [disabled]="products().length === 0"
+            (click)="checkoutAll()">
+        </p-button>
+    </div>
+</ng-template>
+            </p-dataview>
+        </div>
